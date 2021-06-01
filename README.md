@@ -15,7 +15,7 @@ It will create:
 
 ![test_report](https://user-images.githubusercontent.com/25671442/120400617-0adc8e00-c2f3-11eb-9053-f6deb3bd2462.png)
 
-3) a csv (periorbitAI_measures.csv) with the measures in mm for each subject (subject IDs are determined by JPG names)
+2) a csv (periorbitAI_measures.csv) with the measures in mm for each subject (subject IDs are determined by JPG names)
 ![Screen Shot 2021-06-01 at 4 05 43 PM](https://user-images.githubusercontent.com/25671442/120400749-60189f80-c2f3-11eb-997e-e951faf88b8e.png)
 
 
