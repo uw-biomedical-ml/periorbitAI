@@ -21,6 +21,24 @@ It will create:
 
 We provide an example photograph in "photos" and the output for this photo in "example_output," shown above.
 
+
+
+
+
+
+# Citation
+Please cite this paper when using this repo:
+
+Alexandra Van Brummen, Julia P. Owen, Theodore Spaide, Colin Froines, Randy Lu, Megan Lacy, Marian Blazes, Emily Li, Cecilia S. Lee, Aaron Y. Lee, Matthew Zhang,
+PeriorbitAI: Artificial intelligence automation of eyelid and periorbital measurements, American Journal of Ophthalmology, 2021
+
+
+
+
+
+
+
+# Installation
 You must install the following Python packages:
 
 Pytorch (1.4.0)
