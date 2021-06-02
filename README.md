@@ -60,7 +60,7 @@ If having troubles with import cv2, try:
 conda install --channel https://conda.anaconda.org/menpo opencv3
 
 Installation
-git clone https://github.com/uw-biomedical-ml/irf-periorbitAI
+git clone https://github.com/uw-biomedical-ml/periorbitAI
 
 
 
