@@ -53,8 +53,11 @@ You must install the following Python packages:
 Pytorch (1.4.0)
 
 Matplotlib
+
 cv2
+
 skimage
+
 scipy
 
 Use for full requirements:
