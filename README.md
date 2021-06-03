@@ -6,7 +6,7 @@ In this repo you will find a python script (run_periorbitAI.py) to segment a col
 It takes two inputs a root directory name and a directory name containing all photographs:
 
 <pre>
-  python run_periorbitAI.py root_directory name_of_photo_directory
+python run_periorbitAI.py root_directory name_of_photo_directory
 </pre>
 
   
