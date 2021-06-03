@@ -51,7 +51,6 @@ PeriorbitAI: Artificial intelligence automation of eyelid and periorbital measur
 You must install the following Python packages:
 
 Pytorch (1.4.0)
-See installation instructions.
 
 Matplotlib
 cv2
@@ -59,15 +58,20 @@ skimage
 scipy
 
 Use for full requirements:
+<pre>
 conda install --file requirements.txt
+</pre>
 
 or
 
+<pre>
 pip install -r requirements.txt
-
+</pre>
 If having troubles with import cv2, try:
 
+<pre>
 conda install --channel https://conda.anaconda.org/menpo opencv3
+</pre>
 
 Donwloading the repo
 Due to the size of the segmentation model (>100MB) this repo has to be downloaded a release.  Please follow these instructions:
