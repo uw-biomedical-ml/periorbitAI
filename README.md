@@ -12,7 +12,9 @@ It takes two inputs a root directory name and a directory name containing all ph
   
 Example:
 
+<pre>
 python run_periorbitAI.py /data/periorbitAI photos
+</pre>
 
 ![test](https://user-images.githubusercontent.com/25671442/120400553-ef718300-c2f2-11eb-91ce-c5ad1d68415b.JPG)
 
