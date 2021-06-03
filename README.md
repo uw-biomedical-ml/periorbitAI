@@ -5,6 +5,10 @@ In this repo you will find a python script (run_periorbitAI.py) to segment a col
 
 It takes two inputs a root directory name and a directory name containing all photographs:
 
+python run_periorbitAI.py <root directory> <name of photo directory>
+  
+Example:
+
 python run_periorbitAI.py /data/periorbitAI photos
 
 ![test](https://user-images.githubusercontent.com/25671442/120400553-ef718300-c2f2-11eb-91ce-c5ad1d68415b.JPG)
@@ -49,6 +53,7 @@ cv2
 skimage
 scipy
 
+Use for full requirements:
 conda install --file requirements.txt
 
 or
@@ -59,9 +64,13 @@ If having troubles with import cv2, try:
 
 conda install --channel https://conda.anaconda.org/menpo opencv3
 
-Installation
-git clone https://github.com/uw-biomedical-ml/periorbitAI
+Donwloading the repo
+Due to the size of the segmentation model (>100MB) this repo has to be downloaded a release.  Please follow these instructions:
 
-
-
-
+1.  Go to https://github.com/uw-biomedical-ml/periorbitAI
+2.  Click on Release: periorbitAI_v1.0 to the right of the page
+3.  Download source code (either *.zip or *tar.gz)
+4.  Download PSPNet_best
+5.  Unzip/untar the source code repository
+6.  Place PSPNet_best into the code repo
+7.  You should now be able to run from within the code repo: python run_periorbitAI.py <root directory> <name of photo directory>
