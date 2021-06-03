@@ -8,8 +8,6 @@ from psd_tools import PSDImage
 import warnings
 import cv2
 
-SEGMENTATION_NET_LOC = 'model'
-
 LAYER_LIST = ['aperture left',
               'aperture right',
               'background',
@@ -43,10 +41,9 @@ def load_net(segmentation_only=True):
             
     Returns: Loaded network"""
     
-    netloc = SEGMENTATION_NET_LOC
     net = pspnet.UHeadPSP(num_classes=4, u_convs_per_level=3, u_res_convs=True, u_smallcomb=True)
    
-    model_state = torch.load(netloc + '/PSPNet_best')
+    model_state = torch.load('PSPNet_best')
     net.load_state_dict(model_state['model'])
     net = net.cuda()
     net.eval()
