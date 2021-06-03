@@ -8,6 +8,10 @@ It takes two inputs a root directory name and a directory name containing all ph
 <pre>
   <p>python run_periorbitAI.py <root directory> <name of photo directory></p>
 </pre>
+
+
+  <p>python run_periorbitAI.py <root directory> <name of photo directory></p>
+
   
 Example:
 
