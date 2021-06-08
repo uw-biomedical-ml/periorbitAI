@@ -301,9 +301,8 @@ with open(rootdir + measure_filename,'w') as fout:
     fout.write("%s\n" % ",".join(line))
     
 for file in glob.glob(imagedir + '/*JPG'):
-    print(file)
-    #this will likely need to be changed to fit your OS
-    subj = file.split('\\')[-1].split('.')[0]
+    #this will may need to be changed to fit your OS
+    subj = os.path.split(file)[-1].split('.')[0]
     print(subj)
                  
     #load in image and get segmentation
