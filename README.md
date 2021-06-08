@@ -83,7 +83,7 @@ Due to the size of the segmentation model (>100MB) this repo has to be downloade
 2.  Click on Release: periorbitAI_v1.0 to the right of the page
 3.  Download source code (either *.zip or *tar.gz)
 4.  Download PSPNet_best
-5.  Unzip/untar the source code repository
+5.  Unzip/untar the source code repository (this may be needed: tar -xf v1.0.tar.gz --no-same-owner)
 6.  Place PSPNet_best into the code repo
 7.  You should now be able to run from within the code repo: 
 <pre>
